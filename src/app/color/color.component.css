@@ -1,0 +1,14 @@
+label, p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+
+    border-radius : 6px rgb(245, 218, 218) ;
+    background-color: aliceblue;
+}

@@ -1,0 +1,24 @@
+<h1> Color component Assignment</h1>
+<div>
+
+    <p [style.background-color] = "bgcol" width = "30%" height = "20%"  > Change my background to hex value : {{bgcol}} </p>
+    <label> Red :</label>   <input type = "range" value ="0" min ="0" max= "255" [(ngModel)]  = "bred" (change) = "changebgcolor()" >
+     <br>
+    <label> Green :</label> <input type = "range"  value ="0" min ="0" max= "255" [(ngModel)] = 'bgreen' (change) = "changebgcolor()" >
+     <br>
+    <label> Blue :</label>  <input type = "range"  value ="0" min ="0" max= "255" [(ngModel)] = 'bblue' (change) = "changebgcolor()">
+     <br>
+
+</div> 
+
+<div>
+
+    <p [style.color] = "fontcol" >  Change my font to hex value : {{fontcol}} </p>
+    <label> Red :</label>   <input type = "range" value ="0" min ="0" max= "255" [(ngModel)]  = "fred" (change) = "changefontcolor()" > 
+     <br>
+    <label> Green :</label> <input type = "range"  value ="0" min ="0" max= "255" [(ngModel)] = 'fgreen' (change) = "changefontcolor()" >
+     <br>
+    <label> Blue :</label>  <input type = "range"  value ="0" min ="0" max= "255" [(ngModel)] = 'fblue' (change) = "changefontcolor()"> 
+     <br>
+
+</div>
